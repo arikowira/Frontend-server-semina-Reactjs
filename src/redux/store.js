@@ -14,6 +14,7 @@ import paymentsReducer from './payments/reducer';
 import eventsReducer from './events/reducer';
 import listsReducer from './lists/reducer';
 import ordersReducer from './orders/reducer';
+import participantsReducer from './participants/reducer';
 
 const composerEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -26,7 +27,9 @@ const rootReducers = combineReducers({
   events: eventsReducer,
   lists: listsReducer,
   orders: ordersReducer,
+  participants: participantsReducer,
 });
+
 const store = createStore(
   rootReducers,
   composerEnhancer(applyMiddleware(thunk))

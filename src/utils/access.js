@@ -20,10 +20,10 @@ export const accessEvents = {
 };
 
 export const accessParticipant = {
-  lihat: ['organizer'],
-  tambah: ['organizer'],
-  edit: ['organizer'],
-  hapus: ['organizer'],
+  lihat: ['owner'],
+  tambah: ['owner'],
+  edit: ['owner'],
+  hapus: ['owner'],
 };
 
 export const accessPayments = {

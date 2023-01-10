@@ -85,7 +85,7 @@ function PaymentsEdit() {
           ...alert,
           status: true,
           type: 'danger',
-          message: 'type image png | jpg | jpeg',
+          message: 'type image png | jpg | jpeg | svg',
         });
         setForm({
           ...form,

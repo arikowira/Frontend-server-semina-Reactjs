@@ -10,6 +10,7 @@ import { PaymentsRoute } from './PaymentsRoute';
 import SNavbar from '../components/navbar';
 import { EventsRoute } from './EventsRoute';
 import { OrdersRoute } from './OrdersRoute';
+import { ParticipantsRoute } from './ParticipantsRoute';
 
 export function AppRoutes() {
   return (
@@ -34,6 +35,7 @@ export function AppRoutes() {
         <Route path='dashboard/*' element={<HomeRoute />} />
         <Route path='categories/*' element={<CategoriesRoute />} />
         <Route path='talents/*' element={<TalentsRoute />} />
+        <Route path='participants/*' element={<ParticipantsRoute />} />
         <Route path='payments/*' element={<PaymentsRoute />} />
         <Route path='events/*' element={<EventsRoute />} />
         <Route path='orders/*' element={<OrdersRoute />} />

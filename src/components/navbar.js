@@ -81,9 +81,9 @@ function SNavbar() {
           <NavAccess
             role={role}
             roles={accessParticipant.lihat}
-            action={() => navigate('/participant')}
+            action={() => navigate('/participants')}
           >
-            Participant
+            Participants
           </NavAccess>
           <NavAccess
             role={role}
